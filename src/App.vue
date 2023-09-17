@@ -4,6 +4,7 @@
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/cursos">Cursos</router-link>
+      <router-link to="/acoes">Ações</router-link>
     </nav>
     <transition mode="out-in">
       <router-view></router-view>
@@ -28,7 +29,7 @@ nav {
   padding: 20px 0;
 }
 a {
-  padding: 10px;
+  padding: 5px;
   color: #234;
 }
 .router-link-exact-active {
